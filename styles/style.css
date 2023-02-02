@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.pagina {
+    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
+    background-size: cover;
+    box-sizing: border-box;
+    max-width: 800px;
+    height: 450px;
+    font-family: "Palatino Lynotype";
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    font-style: italic;
+    color: rgb(54, 49, 34);
+    margin: 0 auto;
+}
+#quadro-inicial {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Palatino Linotype";
+    font-size: 6rem;
+    color: rgb(54, 49, 34);
+    text-shadow: 2px 2px 2px rgb(78, 95, 95);
+    line-height: 25px;
+    margin-left: 4%;
+    padding-top: 5%;
+}
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 2px;
+    box-shadow: 2px 2px 2px rgb(78, 95, 95);
+    margin: 4%;
+}
+
+h4 {    /* capítulo */
+    font-size: 3.5rem;
+    color: rgb(54, 49, 34);
+    position: relative;
+    left: 600px;
+    width: 90%;
+}
+
+#clique-play {
+    width: 100%;
+    position: absolute;
+}
+
+#escola {
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    display: none;
+    justify-content: center;
+}
+#video-promocional{
+    display: none;
+}

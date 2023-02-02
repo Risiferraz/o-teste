@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>O Teste</title>
+    <link rel="stylesheet" type="text/css" href="\styles\style.css" />
+    <link rel="stylesheet" type="text/css" href="\styles\media.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="pagina">
+        <section id="quadro-inicial" onmousemove="passarAdiante()">
+            <h1>O Teste</h1>
+            <hr>
+            <h4>Capítulo 2</h4>
+        </section>
+        <section id="escola">
+            <img id="clique-play" src="\imagens\escola-holistica.png" onclick="darOPlay()">
+            <video id="video-promocional" onclick="vaiParaProximaPagina()">
+                <source src="\imagens\escola-holistica3.mp4" type=video/mp4>
+            </video>
+        </section>
+
+    </div>
+    <script defer src="\scripts\script.js"></script> <!-- defer = carregar script depois do carregamento do css -->
+</body>
+
+</html>

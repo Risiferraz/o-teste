@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.pagina {
+    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
+    background-color: rgb(160, 139, 114);
+    background-size: cover;
+    box-sizing: border-box;
+    max-width: 800px;
+    font-family: "Palatino Lynotype";
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    font-style: italic;
+    color: rgb(54, 49, 34);
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2.0rem;
+    color: brown;
+    display: inline;
+}
+
+#perfil{
+    width: 193%;
+}  
+#texto-perfil{
+    padding: 3% 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#quadro1 {
+    display: flex;
+    width: 800px;
+    position: relative;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+}
+#quadro2{
+    position: relative;
+    padding: 3% 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#quadro3{
+    position: relative;
+    padding: 3% 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#quadro4 {
+    position: relative;
+    padding: 3% 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+img{
+    width: 100%;
+}
+.tooltip {
+    display: inline-block;
+}
+.tooltip .tooltip1 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 300px;
+    bottom: 80px;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 18px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip1 {
+    visibility: visible;
+}
+.tooltip .tooltip2 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 230px;
+    bottom: 110px;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 18px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip2 {
+    visibility: visible;
+}
+.tooltip .tooltip3 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 260px;
+    bottom: 190px;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 18px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip3 {
+    visibility: visible;
+}
+.tooltip .tooltip4 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 205px;
+    bottom: 100px;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 18px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip4 {
+    visibility: visible;
+}
+.opcoes {
+    width: 90%;
+    margin: auto;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+.opcao{
+    width: 100%;
+}
