@@ -1,4 +1,4 @@
-let paginasJaVisitadas = localStorage.getItem("paginasJaVisitadas")
+paginasJaVisitadas = localStorage.getItem("paginasJaVisitadas")
 const palavraChave = "agnosticismo"
 if (paginasJaVisitadas== "") {
     paginasJaVisitadas += palavraChave
