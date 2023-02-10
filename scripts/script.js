@@ -9,6 +9,7 @@ function desativarOpcaoJaSelecionada() {
     if (!!lista && lista.length > 0) {
       lista
         .filter(pagina => pagina !="null")
+        .filter(pagina => pagina !="")
         .forEach(pagina => {
           document.getElementById(pagina).style.display = "none"
           console.log("pagina", pagina)
@@ -37,4 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const html = document.querySelector('html');
   html.scrollTop = '0px';
 });
-
+document.getElementById("link").addEventListener("click",()=>{
+  window.location.assign('https://www.google.com');
+})
