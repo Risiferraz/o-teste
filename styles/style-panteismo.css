@@ -77,6 +77,13 @@ img{
     scroll-snap-align: start;
     box-sizing: border-box;
 }
+#tela-final {
+    display: none;
+}
+#link {
+    margin:auto;
+}
+
 .tooltip {
     display: inline-block;
 }

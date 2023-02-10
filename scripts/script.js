@@ -11,7 +11,8 @@ function desativarOpcaoJaSelecionada() {
         .filter(pagina => pagina !="null")
         .filter(pagina => pagina !="")
         .forEach(pagina => {
-          document.getElementById(pagina).style.display = "none"
+          // document.getElementById(pagina).style.display = "none"
+          document.getElementById(pagina).style.opacity = "0.3"
           console.log("pagina", pagina)
         });
     }

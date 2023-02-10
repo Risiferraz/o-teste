@@ -71,6 +71,13 @@ h3 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+#tela-final {
+    display: none;
+}
+#link {
+    margin:auto;
+}
+
 .tooltip {
     display: inline-block;
 }

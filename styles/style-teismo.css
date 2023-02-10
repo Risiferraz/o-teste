@@ -75,6 +75,13 @@ h3 {
 img{
     width: 100%;
 }
+#tela-final {
+    display: none;
+}
+#link {
+    margin:auto;
+}
+
 .tooltip {
     display: inline-block;
 }
