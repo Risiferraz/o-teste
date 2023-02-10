@@ -12,7 +12,7 @@ function desativarOpcaoJaSelecionada() {
         .filter(pagina => pagina !="")
         .forEach(pagina => {
           // document.getElementById(pagina).style.display = "none"
-          document.getElementById(pagina).style.opacity = "0.3"
+          document.getElementById(pagina).style.opacity = "0.1"
           console.log("pagina", pagina)
         });
     }

@@ -157,7 +157,7 @@ img{
 .tooltip:hover .tooltip4 {
     visibility: visible;
 }
-.opcoes {
+#opcoes {
     width: 90%;
     margin: auto;
     scroll-snap-stop: always;

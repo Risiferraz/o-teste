@@ -172,7 +172,7 @@ h4{
 .tooltip:hover .tooltip5 {
     visibility: visible;
 }
-.opcoes {
+#opcoes {
     width: 90%;
     margin: auto;
     scroll-snap-stop: always;

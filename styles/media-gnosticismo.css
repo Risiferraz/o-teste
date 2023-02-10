@@ -203,7 +203,7 @@
         left: 130px;
         bottom: 230px;
     }
-    .opcoes {
+    #opcoes {
         height: 100vh;
     }
 }
@@ -250,7 +250,7 @@
         height: 100vh;
     }
 
-    .opcoes {
+    #opcoes {
         height: 100vh;
     }
 
@@ -280,7 +280,7 @@
         left: 4%;
         bottom: 28%;
     }
-    .opcoes {
+    #opcoes {
         height: 100vh;
     }
 }
