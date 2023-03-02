@@ -4,12 +4,12 @@ desativarOpcaoJaSelecionada()
 function desativarOpcaoJaSelecionada() {
   if (paginasJaVisitadas == null) {
     paginasJaVisitadas = ""
-  }  else {
+  } else {
     const lista = paginasJaVisitadas.split(",")
     if (!!lista && lista.length > 0) {
       lista
-        .filter(pagina => pagina !="null")
-        .filter(pagina => pagina !="")
+        .filter(pagina => pagina != "null")
+        .filter(pagina => pagina != "")
         .forEach(pagina => {
           // document.getElementById(pagina).style.display = "none"
           document.getElementById(pagina).style.opacity = "0.1"
@@ -39,6 +39,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const html = document.querySelector('html');
   html.scrollTop = '0px';
 });
-document.getElementById("link").addEventListener("click",()=>{
+document.getElementById("link").addEventListener("click", () => {
   window.location.assign('https://www.google.com');
 })
+const listaDeOpcoes = document.getElementsByClassName("opcao-link")
+for (const opcao of listaDeOpcoes) {
+  opcao.addEventListener("click", event => {
+    const lista = paginasJaVisitadas.split(",")
+    if (!!lista && lista.includes(opcao.id)) {
+      event.preventDefault()
+    }
+  })
+}
+// .forEach(opcao=>{
+// })
