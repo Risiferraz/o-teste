@@ -51,5 +51,13 @@ for (const opcao of listaDeOpcoes) {
     }
   })
 }
-// .forEach(opcao=>{
-// })
+const lista = paginasJaVisitadas.split(",")
+if (lista.includes("teismo")
+&& lista.includes("ateismo")
+&& lista.includes("agnosticismo")
+&& lista.includes("gnosticismo")
+&& lista.includes("panteismo")
+&& lista.includes("deismo")){
+  document.getElementById("opcoes").style.display = "none";
+  document.getElementById("tela-final").style.display = "block";
+}
