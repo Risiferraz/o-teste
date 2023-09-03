@@ -223,6 +223,10 @@
         line-height: 2.7rem;
         height: 100vh;
     }
+    #imgQ2 {
+        width: 100vw;
+        padding-top: 10vh;
+    }
     #quadro3 {
         padding: 6% 6%;
         line-height: 2.7rem;

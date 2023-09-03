@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 html {
@@ -14,9 +15,9 @@ body {
 }
 
 .pagina {
-    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
-    background-size: cover;
-    box-sizing: border-box;
+    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
     max-width: 800px;
     font-family: "Palatino Lynotype";
     font-size: 2.0rem;
@@ -26,21 +27,33 @@ body {
     margin: 0 auto;
 }
 
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 2px;
+    box-shadow: 2px 2px 2px rgb(78, 95, 95);
+    margin: 1% auto;
+    width: 100%;
+}
+
 h3 {
     font-size: 2.0rem;
     color: brown;
     display: inline;
 }
-h4{
-    font-size: 2.5rem;
-    margin-bottom: 4%;
+
+h4 {
+    /* título */
+    font-size: 2.7rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
 }
 
 #perfil{
-    width: 350%;
+    width: 483%;
 }  
 #texto-perfil{
-    padding: 6% 4%;
+    padding: 2% 4% 0 2%;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -51,13 +64,18 @@ h4{
     scroll-snap-align: start;
     box-sizing: border-box;
 }
-#quadro2{
-    position: relative;
-    padding: 3% 5%;
-    text-align: justify;
-    text-justify: inter-word;
+#quadro2 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
+    position: relative;
+}
+#caixa-texto-quadro2 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#imgQ2 {
+    width: 100%;
 }
 #quadro3{
     position: relative;
@@ -75,11 +93,12 @@ h4{
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-img{
+#imgQ5 {
     width: 100%;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
+
 #tela-final {
     display: none;
 }
@@ -95,9 +114,9 @@ img{
     visibility: hidden;
     position: absolute;
     left: 43%;
-    bottom: 60%;
+    bottom: 71%;
     padding: 0.5em;
-    width: 350px;
+    width: 300px;
     line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;
@@ -112,10 +131,10 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 43%;
-    bottom: 28%;
+    left: 46%;
+    bottom: 41%;
     padding: 0.5em;
-    width: 350px;
+    width: 335px;
     line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;
@@ -130,10 +149,10 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 20%;
-    bottom: 63%;
+    left: 46%;
+    bottom: 14%;
     padding: 0.5em;
-    width: 350px;
+    width: 345px;
     line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;
@@ -148,8 +167,8 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 16%;
-    bottom: 19%;
+    left: 20%;
+    bottom: 64%;
     padding: 0.5em;
     width: 350px;
     line-height: 18px;
@@ -166,8 +185,8 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 6%;
-    bottom: 23%;
+    left: 15%;
+    bottom: 30%;
     padding: 0.5em;
     width: 350px;
     line-height: 18px;
@@ -178,6 +197,24 @@ img{
     background-color: LightGrey;
 }
 .tooltip:hover .tooltip5 {
+    visibility: visible;
+}
+.tooltip .tooltip6 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 36%;
+    bottom: 23%;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 18px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip6 {
     visibility: visible;
 }
 

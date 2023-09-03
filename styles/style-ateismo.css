@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 html {
@@ -14,9 +15,9 @@ body {
 }
 
 .pagina {
-    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
-    background-size: cover;
-    box-sizing: border-box;
+    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
     max-width: 800px;
     font-family: "Palatino Lynotype";
     font-size: 2.0rem;
@@ -31,16 +32,24 @@ h3 {
     color: brown;
     display: inline;
 }
-h4{
-    font-size: 2.5rem;
-    margin-bottom: 3%;
+h4 {
+    /* título */
+    font-size: 3rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
 }
-
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 3px;
+    box-shadow: 3px 3px 4px rgb(78, 95, 95);
+    margin: 2% auto;
+}
 #perfil{
     width: 350%;
 }  
 #texto-perfil{
-    padding: 3% 4%;
+    padding: 2% 4% 0 2%;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -48,20 +57,24 @@ h4{
     display: flex;
     width: 800px;
     position: relative;
+    scroll-snap-stop: always;
     scroll-snap-align: start;
-    box-sizing: border-box;
 }
 #quadro2{
     position: relative;
-    padding: 3% 5%;
+    padding: 1% 5% 0 5%;
     text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+#imgQ2 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
 #quadro3{
     position: relative;
-    padding: 3% 5%;
+    padding: 1% 5% 0 5%;
     text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
@@ -75,10 +88,10 @@ h4{
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-img{
-    width: 100%;
+#imgQ4 {
+    scroll-snap-stop: always;
     scroll-snap-align: start;
-    box-sizing: border-box;
+    width: 100%;
 }
 #tela-final {
     display: none;
