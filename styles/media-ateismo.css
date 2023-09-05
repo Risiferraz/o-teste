@@ -3,6 +3,7 @@
     .pagina {
         font-size: 1.6rem;
         line-height: 1.8rem;
+        max-width: 414px;
     }
 
     #quadro1 {
@@ -10,86 +11,86 @@
     }
 
     #perfil {
-        width: 136px;
-        height: 350px;
+        width: 38%;
         object-fit: cover;
-        object-position: 0;
+        object-position: -7px;
     }
 
     #texto-perfil {
         padding: 2% 4% 0 3%;
         width: 100%;
     }
-
+    h4 {
+        font-size: 2.4rem;
+    }
     #quadro2 {
         position: relative;
     }
-
+    #imgQ2 {
+        width: 100%;
+    }
     #quadro3 {
         position: relative;
     }
 
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
-    h4{
-        font-size: 1.7rem;
-        margin-bottom: 1%;
-    }
+
     .tooltip .tooltip1 {
         left: 30%;
-        bottom: 61%;
-        width: 250px;
+        bottom: 54%;
+        width: 235px;
     }
     .tooltip .tooltip2 {
-        left: 17%;
+        left: 12%;
         bottom: 70%;
         width: 250px;
     }
     .tooltip .tooltip3 {
-        left: 19%;
-        bottom: 31%;
-        width: 250px;
+        left: 7%;
+        bottom: 40%;
+        width: 350px;
     }
     .tooltip .tooltip4 {
-        left: 17%;
-        bottom: 39%;
-        width: 250px;
+        left: 22%;
+        bottom: 37%;
+        width: 235px;
     }
     .tooltip .tooltip5 {
-        left: 17%;
-        bottom: 58%;
-        width: 250px;
+        left: 20%;
+        bottom: 59%;
+        width: 280px;
     }
     .tooltip .tooltip6 {
-        left: 29%;
+        left: 5%;
         bottom: 63%;
         width: 250px;
     }
     .tooltip .tooltip7 {
-        left: 7%;
-        bottom: 24%;
+        left: 8%;
+        bottom: 20%;
         width: 250px;
     }
     .tooltip .tooltip8 {
-        left: 30%;
-        bottom: 28%;
+        left: 32%;
+        bottom: 24%;
         width: 250px;
     }
     .tooltip .tooltip9 {
-        left: 4%;
+        left: 25%;
         bottom: 52%;
         width: 250px;
     }
     .tooltip .tooltip10 {
-        left: 29%;
-        bottom: 36%;
+        left: 6%;
+        bottom: 39%;
         width: 250px;
     }
     .tooltip .tooltip11 {
         left: 30%;
-        bottom: 56%;
-        width: 250px;
+        bottom: 49%;
+        width: 245px;
     }
 }
 
@@ -110,9 +111,7 @@
     }
 
     #perfil {
-        width: 55%;
         width: 130px;
-        height: 335px;
         object-fit: cover;
         object-position: 0;
     }
