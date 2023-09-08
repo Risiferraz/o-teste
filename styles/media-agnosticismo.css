@@ -72,7 +72,7 @@
     }
 }
 /* ________________________________________&&&&&&&&&&&&___________________________________ */
-/* determina telas com largura até 390px */
+/* determina telas com largura de 376 até 390px */
 @media (max-width:390px) {
     .pagina {
         font-size: 1.4rem;
@@ -134,7 +134,7 @@
         width: 250px;
     }
 }
-/* determina telas com largura até 375px */
+/* determina telas com largura de 361 até 375px */
 @media (max-width:375px) {
     .pagina {
         font-size: 1.5rem;

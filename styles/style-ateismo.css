@@ -51,11 +51,9 @@ hr {
 #texto-perfil{
     padding: 2% 4% 0 2%;
     text-align: justify;
-    text-justify: inter-word;
 }
 #quadro1 {
     display: flex;
-    width: 800px;
     position: relative;
     scroll-snap-stop: always;
     scroll-snap-align: start;
@@ -79,6 +77,11 @@ hr {
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
+}
+p {
+    margin: 1% auto;
+    text-align: center;
+    font-weight: bold;
 }
 #quadro4{
     position: relative;
@@ -144,7 +147,7 @@ hr {
     visibility: hidden;
     position: absolute;
     left: 36%;
-    bottom: 29%;
+    bottom: 32%;
     padding: 0.5em;
     width: 360px;
     line-height: 20px;
@@ -162,7 +165,7 @@ hr {
     visibility: hidden;
     position: absolute;
     left: 28%;
-    bottom: 15%;
+    bottom: 41%;
     padding: 0.5em;
     width: 350px;
     line-height: 18px;
@@ -180,7 +183,7 @@ hr {
     visibility: hidden;
     position: absolute;
     left: 8%;
-    bottom: 54%;
+    bottom: 50%;
     padding: 0.5em;
     width: 350px;
     line-height: 18px;
