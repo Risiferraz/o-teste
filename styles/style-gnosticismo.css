@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 html {
@@ -14,10 +15,9 @@ body {
 }
 
 .pagina {
-    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
-    background-color: rgb(160, 139, 114);
-    background-size: cover;
-    box-sizing: border-box;
+    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
     max-width: 800px;
     font-family: "Palatino Lynotype";
     font-size: 2.0rem;
@@ -32,44 +32,96 @@ h3 {
     color: brown;
     display: inline;
 }
-h4{
-    font-size: 2.5rem;
-    margin-bottom: 3%;
-}
 
-#perfil{
-    width: 228%;
-}  
-#texto-perfil{
-    padding: 3% 4%;
-    text-align: justify;
-    text-justify: inter-word;
-}
 #quadro1 {
     display: flex;
-    width: 800px;
     position: relative;
-    scroll-snap-align: start;
-    box-sizing: border-box;
-}
-#quadro2{
-    position: relative;
-    padding: 3% 5%;
-    text-align: justify;
-    text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-#quadro3{
-    position: relative;
-    padding: 3% 5%;
+#perfil{
+    width: 265%;
+}  
+#texto-perfil{
+    padding: 2% 5% 0 3%;
     text-align: justify;
-    text-justify: inter-word;
-    scroll-snap-stop: always;
-    scroll-snap-align: start;
+}
+h4 {
+    /* título */
+    font-size: 3rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
+}
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 3px;
+    box-shadow: 3px 3px 4px rgb(78, 95, 95);
+    margin: 2% auto;
 }
 
-img{
+#quadro2{
+    display: flex;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-quadro2{
+    position: relative;
+    padding: 2% 5% 0 2%;
+    text-align: justify;
+}
+#imgQ2 {
+    width: 283%;
+}
+
+#quadro3{
+    display: grid;
+    position: relative;
+    grid-template-columns: 76% 24%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-quadro3A{
+    grid-area: 1 / 1 / span 1 / span 1;
+    position: relative;
+    padding: 1% 0 0 6%;
+    text-align: justify;
+}
+#caixa-quadro3B{
+    grid-area: 2 / 1 / span 1 / span 1;
+    position: relative;
+    padding: 2% 14% 2% 12%;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#caixa-quadro3C{
+    grid-area: 3 / 1 / span 1 / span 2;
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+}
+#imgQ3{
+    grid-area: 1 / 2 / span 2 / span 1;
+    width: 95%;
+    position: absolute;
+    right: 0;
+}
+#quadro4{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    padding: 2% 5% 0 5%;
+    text-align: justify;
+}
+#quadro5{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    padding: 2% 5% 0 5%;
+    text-align: justify;
+}
+#imgQ5 {
     width: 100%;
 }
 #tela-final {
@@ -86,8 +138,8 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 300px;
-    bottom: 80px;
+    left: 335px;
+    bottom: 81px;
     padding: 0.5em;
     width: 350px;
     line-height: 18px;
@@ -104,10 +156,10 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 270px;
+    left: 412px;
     bottom: 85px;
     padding: 0.5em;
-    width: 350px;
+    width: 338px;
     line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;

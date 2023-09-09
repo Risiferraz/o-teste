@@ -4,19 +4,24 @@
         font-size: 1.6rem;
         line-height: 1.8rem;
     }
-
+    h3 {
+        font-size: 1.6rem;
+    }
     #quadro1 {
         width: 100vw;
     }
-
     #perfil {
         width: 80%;
         object-fit: cover;
     }
-
+    
     #texto-perfil {
         padding: 2% 4% 0 3%;
         width: 100%;
+    }
+    h4{
+        font-size: 1.7rem;
+        margin-bottom: 1%;
     }
 
     #quadro2 {
@@ -27,13 +32,7 @@
         position: relative;
     }
 
-    h3 {
-        font-size: 1.6rem;
-    }
-    h4{
-        font-size: 1.7rem;
-        margin-bottom: 1%;
-    }
+
     .tooltip .tooltip1 {
         left: 120px;
         bottom: 90px;
@@ -142,18 +141,15 @@
         font-size: 1.9rem;
         line-height: 2.6rem;
         margin: 0 auto;
-        max-width: 790px;
+        max-width: 883px;
     }
 
     #quadro1 {
         height: 100vh;
     }
 
-    h3 {
-        font-size: 1.9rem;
-    }
     h4{
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 3%;
     }
 
@@ -162,15 +158,22 @@
     }
 
     #texto-perfil {
-        padding: 9% 5%;
-        line-height: 2.5rem;
+        padding: 5%;
+        line-height: 2.9rem;
     }
 
     #quadro2 {
-        padding: 7% 6%;
-        line-height: 2.7rem;
         height: 100vh;
     }
+    #caixa-quadro2 {
+        padding: 2% 5% 0 1%;
+        line-height: 2.7rem;
+    }
+    #imgQ2 {
+        width: 450%;
+        padding-top: 8%;
+    }
+
     #quadro3 {
         padding: 1% 6%;
         line-height: 2.7rem;
