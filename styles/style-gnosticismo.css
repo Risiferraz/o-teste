@@ -61,17 +61,28 @@ hr {
 }
 
 #quadro2{
-    display: flex;
+    display: grid;
+    grid-template-columns: 32% 7% 61%;
+    grid-template-rows: 123px 252px;
     scroll-snap-stop: always;
     scroll-snap-align: start;
-}
-#caixa-quadro2{
     position: relative;
-    padding: 2% 5% 0 2%;
+}
+#caixa-quadro2A{
+    grid-area: 1 / 2 / span 1 / span 2;
+    padding: 2% 7% 0 2%;
+    text-align: justify;
+}
+#caixa-quadro2B{
+    grid-area: 2 / 3 / span 1 / span 1;
+    padding: 0 7% 0 0;
     text-align: justify;
 }
 #imgQ2 {
-    width: 283%;
+    grid-area: 1 / 1 / span 3 / span 2;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 #quadro3{
@@ -95,26 +106,31 @@ hr {
     font-weight: bold;
     line-height: 2.5rem;
 }
-#caixa-quadro3C{
+#caixa-quadro3C {
     grid-area: 3 / 1 / span 1 / span 2;
     position: relative;
     padding: 1% 5% 0 5%;
     text-align: justify;
 }
-#imgQ3{
+#imgQ3 {
     grid-area: 1 / 2 / span 2 / span 1;
     width: 95%;
     position: absolute;
     right: 0;
 }
-#quadro4{
+#quadro4 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
     position: relative;
-    padding: 2% 5% 0 5%;
     text-align: justify;
 }
-#quadro5{
+#caixa-quadro4 {
+    padding: 1% 5% 0 5%;
+}
+p {
+    padding: 1% 10%;
+}
+#quadro5 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
     position: relative;
@@ -133,16 +149,16 @@ hr {
 
 .tooltip {
     display: inline-block;
+    line-height: 20px;
 }
-.tooltip .tooltip1 {
+.tooltip1 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 335px;
-    bottom: 81px;
+    left: 257px;
+    bottom: 173px;
     padding: 0.5em;
     width: 350px;
-    line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -152,15 +168,14 @@ hr {
 .tooltip:hover .tooltip1 {
     visibility: visible;
 }
-.tooltip .tooltip2 {
+.tooltip2 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 412px;
-    bottom: 85px;
+    left: 354px;
+    bottom: 61px;
     padding: 0.5em;
     width: 338px;
-    line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -170,15 +185,14 @@ hr {
 .tooltip:hover .tooltip2 {
     visibility: visible;
 }
-.tooltip .tooltip3 {
+.tooltip3 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 120px;
-    bottom: 100px;
+    left: 265px;
+    bottom: 195px;
     padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
+    width: 360px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -188,15 +202,14 @@ hr {
 .tooltip:hover .tooltip3 {
     visibility: visible;
 }
-.tooltip .tooltip4 {
+.tooltip4 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 215px;
-    bottom: 150px;
+    left: 342px;
+    bottom: 160px;
     padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
+    width: 340px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -206,15 +219,14 @@ hr {
 .tooltip:hover .tooltip4 {
     visibility: visible;
 }
-.tooltip .tooltip5 {
+.tooltip5 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 260px;
-    bottom: 160px;
+    left: 34px;
+    bottom: 0px;
     padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
+    width: 385px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -224,15 +236,14 @@ hr {
 .tooltip:hover .tooltip5 {
     visibility: visible;
 }
-.tooltip .tooltip6 {
+.tooltip6 {
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 270px;
-    bottom: 90px;
+    left: 427px;
+    bottom: 310px;
     padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
+    width: 330px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -242,6 +253,42 @@ hr {
 .tooltip:hover .tooltip6 {
     visibility: visible;
 }
+.tooltip7 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 386px;
+    bottom: 208px;
+    padding: 0.5em;
+    width: 350px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip7 {
+    visibility: visible;
+}
+.tooltip8 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 300px;
+    bottom: 64px;
+    padding: 0.5em;
+    width: 320px;
+    line-height: 20px;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+.tooltip:hover .tooltip8 {
+    visibility: visible;
+}
+
 #opcoes {
     width: 90%;
     margin: auto;

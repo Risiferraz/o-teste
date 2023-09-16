@@ -144,7 +144,7 @@
 }
 
 /* ________________________________________&&&&&&&&&&&&___________________________________ */
-/* determina telas em landscape com altura entre 390 a 428 px */
+/* determina telas em landscape com altura entre 391 a 428 px */
 @media (orientation: landscape) and (max-height: 428px) {
 
     .pagina {
