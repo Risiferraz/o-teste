@@ -34,17 +34,16 @@ h3 {
 }
 
 #perfil{
-    width: 249%;
+    width: 324%;
 }  
 #quadro1 {
     display: flex;
-    width: 800px;
     position: relative;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
 #texto-perfil{
-    padding: 3% 5%;
+    padding: 3% 5% 0 2%;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -62,32 +61,55 @@ hr {
     margin: 2% auto;
     width: 100%;
 }
-#quadro2{
+#quadro2 {
     position: relative;
-    padding: 3% 5%;
-    text-align: justify;
-    text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-#quadro3{
+#caixa-quadro2 {
     position: relative;
-    padding: 3% 5%;
+    padding: 1% 7% 0 4%;
     text-align: justify;
-    text-justify: inter-word;
+    line-height: 2.5rem;
+}
+#imgQ2 {
+    width: 100%;
+}
+#quadro3 {
+    position: relative;
     scroll-snap-stop: always;
     scroll-snap-align: start;
+}
+#caixa-quadro3 {
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+#imgQ3 {
+    width: 100%;
 }
 #quadro4 {
     position: relative;
-    padding: 3% 5%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-quadro4 {
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+#imgQ4 {
+    width: 100%;
+}
+#quadro5 {
+    position: relative;
+    padding: 1% 5%;
     text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
-}
-img{
-    width: 100%;
 }
 #tela-final {
     display: none;
@@ -103,11 +125,11 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 300px;
-    bottom: 80px;
+    left: 168px;
+    bottom: 21px;
     padding: 0.5em;
     width: 350px;
-    line-height: 18px;
+    line-height: 20px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -121,11 +143,11 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 230px;
-    bottom: 110px;
+    left: 411px;
+    bottom: 211px;
     padding: 0.5em;
     width: 350px;
-    line-height: 18px;
+    line-height: 20px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -135,42 +157,7 @@ img{
 .tooltip:hover .tooltip2 {
     visibility: visible;
 }
-.tooltip .tooltip3 {
-    z-index: 2;
-    visibility: hidden;
-    position: absolute;
-    left: 260px;
-    bottom: 190px;
-    padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
-    color: brown;
-    box-shadow: 5px 10px brown;
-    text-align: center;
-    border: 1px solid brown;
-    background-color: LightGrey;
-}
-.tooltip:hover .tooltip3 {
-    visibility: visible;
-}
-.tooltip .tooltip4 {
-    z-index: 2;
-    visibility: hidden;
-    position: absolute;
-    left: 205px;
-    bottom: 100px;
-    padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
-    color: brown;
-    box-shadow: 5px 10px brown;
-    text-align: center;
-    border: 1px solid brown;
-    background-color: LightGrey;
-}
-.tooltip:hover .tooltip4 {
-    visibility: visible;
-}
+
 #opcoes {
     width: 90%;
     margin: auto;

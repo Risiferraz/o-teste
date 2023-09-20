@@ -292,7 +292,6 @@
         height: 100vh;
     }
 }
-
 /* _____________________________________&&&&&&&&&&&&______________________________________ */
 /* determina telas em LANDSCAPE com altura de 376 a 390px */
 @media (orientation: landscape) and (max-height: 390px) {
