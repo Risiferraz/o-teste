@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 html {
@@ -14,10 +15,9 @@ body {
 }
 
 .pagina {
-    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
-    background-color: rgb(160, 139, 114);
-    background-size: cover;
-    box-sizing: border-box;
+    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
     max-width: 800px;
     font-family: "Palatino Lynotype";
     font-size: 2.0rem;
@@ -33,49 +33,103 @@ h3 {
     display: inline;
 }
 
-#perfil{
-    width: 242%;
-}  
-#texto-perfil{
-    padding: 3% 5%;
-    text-align: justify;
-    text-justify: inter-word;
-}
 #quadro1 {
     display: flex;
-    width: 800px;
     position: relative;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
-#quadro2{
+#perfil {
+    width: 400%;
+    object-fit: cover;
+}  
+#texto-perfil {
+    padding: 3% 5% 0 3%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h4 {
+    /* título */
+    font-size: 3rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
+}
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 3px;
+    box-shadow: 2px 2px 2px rgb(78, 95, 95);
+    margin: 2% auto;
+    width: 100%;
+}
+#quadro2 {
     position: relative;
-    padding: 3% 5%;
+    padding: 1% 5%;
     text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
 #quadro3{
-    position: relative;
-    padding: 3% 5%;
-    text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 35% 65%;
 }
+#caixa-texto3A {
+    grid-area: 1 / 1 / span 1 / span 2;
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+}
+#caixa-texto3B {
+    grid-area: 2 / 2 / span 1 / span 1;
+    position: relative;
+    padding: 6% 7% 0 6%;
+    text-align: justify;
+}
+#imgQ3{
+    grid-area: 2 / 1 / span 1 / span 1;
+    width: 100%;
+}
+
 #quadro4 {
     position: relative;
-    padding: 3% 5%;
-    text-align: justify;
     text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-img{
-    width: 100%;
+#caixa-texto4A {
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+}
+#caixa-texto4B {
+    position: relative;
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+}
+
+#quadro5{
+    position: relative;
+    text-justify: inter-word;
+    scroll-snap-stop: always;
     scroll-snap-align: start;
-    box-sizing: border-box;
+}
+#caixa-texto5 {
+    padding: 1% 5% 0 5%;
+    text-align: justify;
+}
+#imgQ5{
+    width: 100%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#opcoes {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
 }
 #tela-final {
     display: none;
@@ -91,11 +145,11 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 300px;
-    bottom: 80px;
+    left: 260px;
+    bottom: 63px;
     padding: 0.5em;
     width: 350px;
-    line-height: 18px;
+    line-height: 19px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -109,11 +163,11 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 230px;
-    bottom: 110px;
+    left: 403px;
+    bottom: 42px;
     padding: 0.5em;
     width: 350px;
-    line-height: 18px;
+    line-height: 19px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -127,11 +181,11 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 260px;
-    bottom: 190px;
+    left: 36px;
+    bottom: -40px;
     padding: 0.5em;
-    width: 350px;
-    line-height: 18px;
+    width: 430px;
+    line-height: 20px;
     color: brown;
     box-shadow: 5px 10px brown;
     text-align: center;
@@ -145,10 +199,10 @@ img{
     z-index: 2;
     visibility: hidden;
     position: absolute;
-    left: 205px;
-    bottom: 100px;
+    left: 76px;
+    bottom: 32px;
     padding: 0.5em;
-    width: 350px;
+    width: 300px;
     line-height: 18px;
     color: brown;
     box-shadow: 5px 10px brown;

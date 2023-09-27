@@ -134,6 +134,7 @@
         width: 250px;
     }
 }
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
 /* determina telas com largura de 361 até 375px */
 @media (max-width:375px) {
     .pagina {
@@ -170,6 +171,7 @@
         width: 310px;
     }
 }
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
 /* determina telas com largura até 360px */
 @media (max-width:360px) {
     #perfil {
@@ -366,8 +368,8 @@
         width: 341%;
     }
     #texto-perfil {
-        padding: 1% 4%;
-        line-height: 2.3rem;      
+        padding: 2% 4%;
+        line-height: 2.2rem;
     }
     #imgQ2 {
         width: 95%;
