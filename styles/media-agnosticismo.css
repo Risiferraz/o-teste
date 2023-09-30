@@ -373,6 +373,8 @@
     }
     #imgQ2 {
         width: 95%;
+        position: relative;
+        right: -5%;
     }
     #quadro3 {
         line-height: 2.4rem;
@@ -380,6 +382,11 @@
     #quadro4 {
         padding: 3% 5%;
         line-height: 2.7rem;
+    }
+    #imgQ5 {
+        position: relative;
+        object-fit: contain;
+        object-position: 0 67px;
     }
 
     .tooltip .tooltip1 {
