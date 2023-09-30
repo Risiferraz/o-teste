@@ -98,8 +98,16 @@ h4 {
     display: none;
 }
 #link {
-    margin:auto;
+    margin: auto;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
 }
+#mensagem-final {
+    width: 100%;
+}
+
 .tooltip {
     display: inline-block;
 }
