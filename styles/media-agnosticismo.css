@@ -40,6 +40,7 @@
         font-size: 1.7rem;
         margin-bottom: 1%;
     }
+
     .tooltip .tooltip1 {
         left: 35%;
         bottom: 48%;
@@ -256,6 +257,13 @@
         height: 100vh;
         object-position: 0;
     }
+    #tela-final {
+        height: 100vh;
+    }
+    #mensagem-final {
+        height: 100vh;
+    }
+
     .tooltip {
         position: relative;
     }

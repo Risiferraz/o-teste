@@ -17,7 +17,26 @@ function desativarOpcaoJaSelecionada() {
         });
     }
   }
-
+  
+  const listaDeOpcoes = document.getElementsByClassName("opcao-link")
+  for (const opcao of listaDeOpcoes) {
+    opcao.addEventListener("click", event => {
+      const lista = paginasJaVisitadas.split(",")
+      if (!!lista && lista.includes(opcao.id)) {
+        event.preventDefault()
+      }
+    })
+  }
+  const lista = paginasJaVisitadas.split(",")
+  if (lista.includes("teismo")
+  && lista.includes("ateismo")
+  && lista.includes("agnosticismo")
+  && lista.includes("gnosticismo")
+  && lista.includes("panteismo")
+  && lista.includes("deismo")){
+    document.getElementById("opcoes").style.display = "none";
+    document.getElementById("tela-final").style.display = "block";
+  }
 }
 function passarAdiante() {
   setTimeout(() => vaiParaProximoQuadro(), 2000);
@@ -39,25 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const html = document.querySelector('html');
   html.scrollTop = '0px';
 });
-document.getElementById("link").addEventListener("click", () => {
-  window.location.assign('https://www.google.com');
+document.getElementById("link").addEventListener("click", () => {//link FINAL que leva ao próxima PÁGINA
+  window.location.assign('https://www.google.com');//aguardando para colocar o link do site
 })
-const listaDeOpcoes = document.getElementsByClassName("opcao-link")
-for (const opcao of listaDeOpcoes) {
-  opcao.addEventListener("click", event => {
-    const lista = paginasJaVisitadas.split(",")
-    if (!!lista && lista.includes(opcao.id)) {
-      event.preventDefault()
-    }
-  })
-}
-const lista = paginasJaVisitadas.split(",")
-if (lista.includes("teismo")
-&& lista.includes("ateismo")
-&& lista.includes("agnosticismo")
-&& lista.includes("gnosticismo")
-&& lista.includes("panteismo")
-&& lista.includes("deismo")){
-  document.getElementById("opcoes").style.display = "none";
-  document.getElementById("tela-final").style.display = "block";
-}

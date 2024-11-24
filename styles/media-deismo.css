@@ -193,6 +193,12 @@
     #opcoes {
         height: 100vh;
     }
+    #tela-final {
+        height: 100vh;
+    }
+    #mensagem-final {
+        height: 100vh;
+    }
     .tooltip {
         position: relative;
     }
@@ -286,7 +292,10 @@
         left: -156%;
         bottom: 130%;
     }
-
+    .tooltip .tooltip5 {
+        left: -163%;
+        bottom: 124%;
+    }
 }
 /* _____________________________________&&&&&&&&&&&&______________________________________ */
 /* determina telas em LANDSCAPE com altura de até 360 px */
@@ -323,6 +332,7 @@
         bottom: 140%;
     }
     .tooltip .tooltip5 {
+        left: -5%;
         bottom: 140%;
     }
 }

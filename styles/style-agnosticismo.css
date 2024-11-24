@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 html {
     overflow-y: scroll;
@@ -15,7 +15,7 @@ body {
 }
 
 .pagina {
-    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-image: url("../imagens/pano-de-fundo.jpg");
     background-color: rgb(200, 187, 172);
     background-size: contain;
     max-width: 800px;
@@ -49,61 +49,83 @@ h4 {
     text-align: center;
 }
 
-#perfil{
+#perfil {
     width: 483%;
-}  
-#texto-perfil{
+}
+
+#texto-perfil {
     padding: 2% 4% 0 2%;
     text-align: justify;
 }
+
 #quadro1 {
     display: flex;
     position: relative;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
+
 #quadro2 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
     position: relative;
 }
+
 #caixa-texto-quadro2 {
     padding: 1% 4% 0 4%;
     text-align: justify;
 }
+
 #imgQ2 {
     width: 100%;
 }
-#quadro3{
+
+#quadro3 {
     position: relative;
     padding: 1% 5%;
     text-align: justify;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-#quadro4{
+
+#quadro4 {
     position: relative;
     padding: 3% 5%;
     text-align: justify;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+
 #imgQ5 {
     width: 100%;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
 
+#opcoes {
+    width: 90%;
+    margin: auto;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+.opcao {
+    width: 100%;
+}
+
 #tela-final {
+    scroll-snap-align: start;
     display: none;
 }
+
 #link {
     margin: auto;
     background-color: Transparent;
     border: none;
-    cursor:pointer;
-    overflow: hidden; 
+    cursor: pointer;
+    overflow: hidden;
 }
+
 #mensagem-final {
     width: 100%;
 }
@@ -111,6 +133,7 @@ h4 {
 .tooltip {
     display: inline-block;
 }
+
 .tooltip .tooltip1 {
     z-index: 2;
     visibility: hidden;
@@ -126,9 +149,11 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip1 {
     visibility: visible;
 }
+
 .tooltip .tooltip2 {
     z-index: 2;
     visibility: hidden;
@@ -144,9 +169,11 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip2 {
     visibility: visible;
 }
+
 .tooltip .tooltip3 {
     z-index: 2;
     visibility: hidden;
@@ -162,9 +189,11 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip3 {
     visibility: visible;
 }
+
 .tooltip .tooltip4 {
     z-index: 2;
     visibility: hidden;
@@ -180,9 +209,11 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip4 {
     visibility: visible;
 }
+
 .tooltip .tooltip5 {
     z-index: 2;
     visibility: hidden;
@@ -198,9 +229,11 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip5 {
     visibility: visible;
 }
+
 .tooltip .tooltip6 {
     z-index: 2;
     visibility: hidden;
@@ -216,16 +249,7 @@ h4 {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip6 {
     visibility: visible;
-}
-
-#opcoes {
-    width: 90%;
-    margin: auto;
-    scroll-snap-stop: always;
-    scroll-snap-align: start;
-}
-.opcao{
-    width: 100%;
 }

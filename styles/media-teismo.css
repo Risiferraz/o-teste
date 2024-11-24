@@ -203,6 +203,12 @@
         padding: 0 4% 0 5%;
         line-height: 2.8rem;
     }
+    #tela-final {
+        height: 100vh;
+    }
+    #mensagem-final {
+        height: 100vh;
+    }
     #opcoes {
         height: 100vh;
     }

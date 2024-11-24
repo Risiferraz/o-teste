@@ -316,6 +316,12 @@
     #imgQ5 {
         width: 98%;
     }
+    #tela-final {
+        height: 100vh;
+    }
+    #mensagem-final {
+        height: 100vh;
+    }
 
     .tooltip {
         position: relative;

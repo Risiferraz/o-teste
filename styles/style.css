@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 html {
@@ -14,7 +15,7 @@ body {
 }
 
 .pagina {
-    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-image: url("../imagens/pano-de-fundo.jpg");
     background-color: rgb(160, 139, 114);
     background-size: cover;
     box-sizing: border-box;

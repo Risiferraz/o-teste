@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 html {
     overflow-y: scroll;
@@ -15,7 +15,7 @@ body {
 }
 
 .pagina {
-    background-image: url("../imagens/superficie-de-embalagem-de-cartao-liso-bege.jpg");
+    background-image: url("../imagens/pano-de-fundo.jpg");
     background-color: rgb(200, 187, 172);
     background-size: contain;
     max-width: 800px;
@@ -39,15 +39,17 @@ h3 {
     scroll-snap-align: start;
     box-sizing: border-box;
 }
+
 #perfil {
     width: 400%;
     object-fit: cover;
-}  
+}
+
 #texto-perfil {
     padding: 3% 5% 0 3%;
     text-align: justify;
-    text-justify: inter-word;
 }
+
 h4 {
     /* título */
     font-size: 3rem;
@@ -55,6 +57,7 @@ h4 {
     color: rgb(54, 49, 34);
     text-align: center;
 }
+
 hr {
     border-color: rgb(70, 7, 3);
     border-width: 3px;
@@ -62,85 +65,100 @@ hr {
     margin: 2% auto;
     width: 100%;
 }
+
 #quadro2 {
     position: relative;
     padding: 1% 5%;
     text-align: justify;
-    text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
-#quadro3{
-    text-justify: inter-word;
+
+#quadro3 {
     scroll-snap-stop: always;
     scroll-snap-align: start;
     display: grid;
     grid-template-columns: 35% 65%;
 }
+
 #caixa-texto3A {
     grid-area: 1 / 1 / span 1 / span 2;
     position: relative;
     padding: 1% 5% 0 5%;
     text-align: justify;
 }
+
 #caixa-texto3B {
     grid-area: 2 / 2 / span 1 / span 1;
     position: relative;
     padding: 6% 7% 0 6%;
     text-align: justify;
 }
-#imgQ3{
+
+#imgQ3 {
     grid-area: 2 / 1 / span 1 / span 1;
     width: 100%;
 }
 
 #quadro4 {
     position: relative;
-    text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+
 #caixa-texto4A {
     position: relative;
     padding: 1% 5% 0 5%;
     text-align: justify;
 }
+
 #caixa-texto4B {
     position: relative;
     padding: 1% 5% 0 5%;
     text-align: justify;
 }
 
-#quadro5{
+#quadro5 {
     position: relative;
-    text-justify: inter-word;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+
 #caixa-texto5 {
     padding: 1% 5% 0 5%;
     text-align: justify;
 }
-#imgQ5{
+
+#imgQ5 {
     width: 100%;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
 
 #opcoes {
+    width: 90%;
+    margin: auto;
     scroll-snap-stop: always;
     scroll-snap-align: start;
 }
+
+.opcao {
+    width: 100%;
+}
+
 #tela-final {
     display: none;
+    scroll-snap-align: start;
 }
+
 #link {
     margin: auto;
     background-color: Transparent;
     border: none;
-    cursor:pointer;
-    overflow: hidden; 
+    cursor: pointer;
+    overflow: hidden;
 }
+
 #mensagem-final {
     width: 100%;
 }
@@ -148,6 +166,7 @@ hr {
 .tooltip {
     display: inline-block;
 }
+
 .tooltip .tooltip1 {
     z-index: 2;
     visibility: hidden;
@@ -163,9 +182,11 @@ hr {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip1 {
     visibility: visible;
 }
+
 .tooltip .tooltip2 {
     z-index: 2;
     visibility: hidden;
@@ -181,9 +202,11 @@ hr {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip2 {
     visibility: visible;
 }
+
 .tooltip .tooltip3 {
     z-index: 2;
     visibility: hidden;
@@ -199,9 +222,11 @@ hr {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip3 {
     visibility: visible;
 }
+
 .tooltip .tooltip4 {
     z-index: 2;
     visibility: hidden;
@@ -217,15 +242,7 @@ hr {
     border: 1px solid brown;
     background-color: LightGrey;
 }
+
 .tooltip:hover .tooltip4 {
     visibility: visible;
-}
-#opcoes {
-    width: 90%;
-    margin: auto;
-    scroll-snap-stop: always;
-    scroll-snap-align: start;
-}
-.opcao{
-    width: 100%;
 }
